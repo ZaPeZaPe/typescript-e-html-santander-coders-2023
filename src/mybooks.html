@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBook - MyBooks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="search">
+        <h1>Procurar meus livros</h1>
+        <input type="text" id="searchInput" placeholder="Ex.: Harry Potter" required>
+        <div class="buttons">
+            <input type="submit" id="searchButton" value="Pesquisar">
+            <input type="submit" id="logoutButton" value="Logout">
+        </div>
+        <div class="buttons">
+            <input type="submit" id="soButton" value="Pesquisar novos livros" onclick="window.location.href = './search.html'">
+        </div>
+    </div>
+    <div id="searchResults">
+        
+    </div>
+    <script type="module" src="../dist/mybooks.js"></script>
+</body>
+</html>
